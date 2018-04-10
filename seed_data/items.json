@@ -1,0 +1,13 @@
+{
+	"Data-Dev": [
+		{
+			"PutRequest": {
+				"Item": {
+					"Id": {"S": "ashwin.menon"},
+					"Name": {"S": "Ashwin Menon"},
+					"Location": {"S": "Redwood City, CA"}
+				}
+			}
+		}
+	]
+}

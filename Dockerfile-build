@@ -1,0 +1,1 @@
+FROM dockerhub.accenture.com/a06663liquiddevops/node6-build:latest

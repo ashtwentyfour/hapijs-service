@@ -1,0 +1,30 @@
+{
+  "name": "hapi_example_for_adop",
+  "version": "1.0.0",
+  "description": "hapijs example",
+  "private": "true",
+  "main": "start.js",
+  "scripts": {
+    "start": "NODE_ENV=${NODE_ENV} PORT=${PORT} node start.js",
+    "build": "mkdir build && cp -r *.js node_modules handlers *.json build"
+  },
+  "author": "Accenture",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.67.0",
+    "hapi": "^16.1.0",
+    "hapi-brakes": "^0.2.0",
+    "hapi-swagger": "^7.7.0",
+    "inert": "^4.1.0",
+    "joi": "^10.4.1",
+    "vision": "^4.1.1",
+    "wreck": "^12.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-config-hapi": "^10.0.0",
+    "eslint-plugin-hapi": "^4.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}

@@ -1,0 +1,5 @@
+**/node_modules
+config.json
+nohup.out
+node.pid
+build

@@ -1,0 +1,26 @@
+{
+	"DEV": {
+		"awsregion": "us-west-2",
+		"Dynamo": {
+			"Tables": {
+				"Data": "Data-Dev"
+			}
+		}
+	},
+	"PROD": {
+		"awsregion": "us-west-2",
+		"Dynamo": {
+			"Tables": {
+				"Data": "Data-Prod"
+			}
+		}
+	},
+	"TEST": {
+		"awsregion": "us-west-2",
+		"Dynamo": {
+			"Tables": {
+				"Data": "Data-Test"
+			}
+		}
+	}
+}
